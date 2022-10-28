@@ -31,7 +31,7 @@ class odd extends Particle{
     myColor = color((int)(Math.random()*256), 
     (int)(Math.random()*256), (int)(Math.random()*256));
   }
-  void draw(){
+  void show(){
     
   }
 }
@@ -47,7 +47,8 @@ void setup(){
   }
 }
 void draw(){
-  background(0, 60);
+  fill(0, 60);
+  rect(0, 0, 400, 400);
   for(int i = 0; i<star.length; i++){
     star[i].show();
     star[i].move();
