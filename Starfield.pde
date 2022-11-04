@@ -51,7 +51,7 @@ void setup(){
   size(400, 400);
   noStroke();
   star = new Particle[300];
-  for(int i = 0; i<star.length; i++){
+  for(int i = 0; i<5; i++){
     star[i] = new odd();
   }
   for(int i = 5; i<star.length; i++){
